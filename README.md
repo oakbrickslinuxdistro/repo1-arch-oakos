@@ -12,8 +12,6 @@ chaotic repo files
 
 "/etc/pacman.conf"
 
-'[oak_repo1]
-
+[oak_repo1]
 Server=https://raw.githubusercontent.com/oakbrickslinuxdistro/repo1-arch-oakos/main/$arch
-
-SigLevel = PackageOptional'
+SigLevel = PackageOptional
